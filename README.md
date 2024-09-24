@@ -93,7 +93,7 @@ The server should now be running on `http://localhost:5000`.
 {   
     "message": "Login Successful",
     "email": "test@gmail.com",
-    "accessToken": your_access_token
+    "accessToken": "your_access_token"
 }   
 ```
 ## Tasks
@@ -120,8 +120,8 @@ The server should now be running on `http://localhost:5000`.
         "description": "Finish writing the documentation for the task management API.",
         "status": "in-progress",
         "dueDate": "2024-09-30T00:00:00.000Z",
-        "userId": "your_user_id,
-        "_id": your_task_id,
+        "userId": "your_user_id",
+        "_id": "your_task_id",
         "__v": 0
     },
     "message": "Task added Successfully"
@@ -141,8 +141,8 @@ The server should now be running on `http://localhost:5000`.
         "description": "Finish writing the documentation for the task management API.",
         "status": "in-progress",
         "dueDate": "2024-09-30T00:00:00.000Z",
-        "userId": "your_user_id,
-        "_id": your_task_id,
+        "userId": "your_user_id",
+        "_id": "your_task_id",
         "__v": 0
     },
     ...
