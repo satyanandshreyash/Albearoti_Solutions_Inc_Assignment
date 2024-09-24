@@ -73,9 +73,9 @@ The server should now be running on `http://localhost:5000`.
 - **Response**:
 ```json
 {   
-    user: your_user_object, 
-    accessToken: your_access_token,
-    message: "Registration Successful"
+    "user": "your_user_object", 
+    "accessToken": "your_access_token",
+    "message": "Registration Successful"
 }   
 ```
 #### Login
@@ -91,9 +91,9 @@ The server should now be running on `http://localhost:5000`.
 - **Response**:
 ```json
 {   
-    message: "Login Successful",
-    email: "test@gmail.com",
-    accessToken: your_access_token
+    "message": "Login Successful",
+    "email": "test@gmail.com",
+    "accessToken": your_access_token
 }   
 ```
 ## Tasks
@@ -166,7 +166,7 @@ The server should now be running on `http://localhost:5000`.
 - **Response**:
 ```json
 {
-    task: {
+    "task": {
         "_id": "task_id",
         "title": "Updated Task Title",
         "description": "Updated task description",
@@ -175,7 +175,7 @@ The server should now be running on `http://localhost:5000`.
         "user": "user_id",
         "__v": 0
     },
-    message: "Task updated successfully"
+    "message": "Task updated successfully"
 }
 ```
 #### Delete Task
