@@ -73,7 +73,7 @@ The server should now be running on `http://localhost:5000`.
 - **Response**:
 ```json
 {   
-    user: {your_user_object}, 
+    user: your_user_object, 
     accessToken: your_access_token,
     message: "Registration Successful"
 }   
